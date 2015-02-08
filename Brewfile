@@ -21,6 +21,7 @@ install curl --with-openssl --with-libssh2
 install bash-completion
 install newt --with-python
 install byobu
+install reattach-to-user-namespace --wrap-launchctl --wrap-pbcopy-and-pbpaste
 
 # - git
 install subversion --with-ruby --with-perl --with-python
