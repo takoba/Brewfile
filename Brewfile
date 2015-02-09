@@ -68,6 +68,7 @@ cask install gyazo
 cask install hipchat
 cask install skitch
 cask install skype
+cask install xquartz
 
 # - appstore
 appstore Dash
