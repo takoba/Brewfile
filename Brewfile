@@ -59,6 +59,7 @@ cask upgrade
 
 # - cask install
 cask install alfred
+cask install asepsis
 cask install atom
 cask install evernote
 cask install google-chrome
