@@ -33,8 +33,8 @@ install gist
 install nvm
 
 # - io.js
-#tap smockle/iojs
-#install iojs
+tap smockle/iojs
+install iojs
 
 # - golang
 install go
