@@ -1,9 +1,6 @@
-update
-upgrade
-
 # tap
-tap homebrew/versions || true
-tap homebrew/dupes || true
+tap homebrew/versions
+tap homebrew/dupes
 tap rcmdnk/file
 
 ## homebrew/dupes
@@ -54,8 +51,6 @@ install jq
 # homebrew-cask
 tap caskroom/cask
 install caskroom/cask/brew-cask
-cask update
-cask upgrade
 
 # - cask install
 cask install alfred
