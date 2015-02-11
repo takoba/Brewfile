@@ -102,30 +102,15 @@ install xz
 
 # App Store applications
 appstore ATOKPad
-appstore BooklogScanForMac
-appstore Coda 2
 appstore Dash
 appstore Disk Diag
-appstore GarageBand
-appstore GeekTool
 appstore iMovie
 appstore iPhoto
 appstore Kobito
 appstore Memory Diag
-appstore Memory Scope
 appstore MiniUsage
 appstore Pocket
-appstore Pushbullet
-appstore Reeder
-appstore RSS Notifier
-appstore Skitch
 appstore Slack
-appstore The Journalist
-appstore TweetDeck
 appstore Twitter
-appstore VirtualDJ Home
-appstore Wake Up Time
-appstore WannaAudio
 appstore WinArchiver Lite
-appstore Wunderlist
 appstore Xcode
