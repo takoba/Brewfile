@@ -108,7 +108,6 @@ appstore iMovie
 appstore iPhoto
 appstore Kobito
 appstore Memory Diag
-appstore MiniUsage
 appstore Pocket
 appstore Slack
 appstore Twitter
