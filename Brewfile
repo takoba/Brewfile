@@ -97,7 +97,7 @@ install subversion --with-ruby --with-perl --with-python --with-ruby --with-perl
 install swig
 install the_silver_searcher
 install tmux
-install vim --with-client-server --with-lua
+install vim --with-lua
 install xz
 
 # App Store applications
