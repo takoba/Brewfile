@@ -12,6 +12,7 @@ cask install google-chrome
 cask install google-drive
 cask install gyazo
 cask install hipchat
+cask install kindle
 cask install skitch
 cask install skype
 cask install xquartz
@@ -22,6 +23,9 @@ install apple-gcc42
 
 ## homebrew/versions
 tap homebrew/versions
+
+## mroonga/homebrew-mroonga
+tap mroonga/homebrew-mroonga
 
 ## rcmdnk/file
 tap rcmdnk/file
@@ -56,6 +60,7 @@ install go
 install gobject-introspection
 install gtk+
 install harfbuzz
+install httpie
 install hub
 install icu4c
 install jpeg
@@ -81,6 +86,7 @@ install nvm
 install openssl
 install pango
 install pcre
+install peco
 install pixman
 install pkg-config
 install popt
