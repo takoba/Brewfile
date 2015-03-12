@@ -20,6 +20,7 @@ cask install xquartz
 
 ## homebrew/apache
 tap homebrew/apache
+install httpd24 --with-homebrew-openssl --with-mpm-worker
 
 ## homebrew/dupes
 tap homebrew/dupes
@@ -27,6 +28,7 @@ install apple-gcc42
 
 ## homebrew/php
 tap homebrew/php
+install php56 --with-debug --with-homebrew-curl --with-libmysql
 
 ## homebrew/versions
 tap homebrew/versions
@@ -83,6 +85,7 @@ install libxml2
 install libxslt
 install lua
 install luajit
+install lynx
 install macvim --HEAD --with-lua
 install mcrypt
 install mhash
