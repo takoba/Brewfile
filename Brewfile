@@ -8,6 +8,7 @@ cask install alfred
 cask install asepsis
 cask install atom
 cask install evernote
+cask install goofy
 cask install google-chrome
 cask install google-drive
 cask install gyazo
@@ -17,9 +18,15 @@ cask install skitch
 cask install skype
 cask install xquartz
 
+## homebrew/apache
+tap homebrew/apache
+
 ## homebrew/dupes
 tap homebrew/dupes
 install apple-gcc42
+
+## homebrew/php
+tap homebrew/php
 
 ## homebrew/versions
 tap homebrew/versions
@@ -46,6 +53,7 @@ install cairo
 install coreutils
 install cscope
 install curl --with-openssl --with-libssh2
+install direnv
 install fontconfig
 install freetype
 install gd
@@ -94,8 +102,12 @@ install protobuf
 install pwgen
 install python
 install python3
+install rbenv
+install rbenv-default-gems
 install readline
 install reattach-to-user-namespace --wrap-launchctl --wrap-pbcopy-and-pbpaste
+install redis
+install ruby-build rbenv-gemset rbenv-gem-rehash
 install s-lang
 install scons
 install sqlite
