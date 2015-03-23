@@ -16,11 +16,18 @@ cask install hipchat
 cask install kindle
 cask install skitch
 cask install skype
+cask install virtualbox
 cask install xquartz
+
+## fukayatsu/font
+tap fukayatsu/font
 
 ## homebrew/apache
 tap homebrew/apache
 install httpd24 --with-homebrew-openssl --with-mpm-worker
+
+## homebrew/binary
+tap homebrew/binary
 
 ## homebrew/dupes
 tap homebrew/dupes
@@ -28,7 +35,9 @@ install apple-gcc42
 
 ## homebrew/php
 tap homebrew/php
-install php56 --with-debug --with-homebrew-curl --with-libmysql
+install composer
+install php56-xhprof
+install php56 --homebrew-apxs --with-homebrew-curl --with-libmysql
 
 ## homebrew/versions
 tap homebrew/versions
@@ -39,6 +48,10 @@ tap mroonga/homebrew-mroonga
 ## rcmdnk/file
 tap rcmdnk/file
 install brew-file
+
+## sanemat/font
+tap sanemat/font
+install ricty --vim-powerline --powerline
 
 ## smockle/iojs
 tap smockle/iojs
@@ -51,11 +64,13 @@ install automake
 install bash-completion
 install bison
 install byobu
+install cabocha
 install cairo
 install coreutils
 install cscope
 install curl --with-openssl --with-libssh2
 install direnv
+install docker boot2docker
 install fontconfig
 install freetype
 install gd
