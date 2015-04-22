@@ -14,6 +14,7 @@ cask install google-drive
 cask install gyazo
 cask install hipchat
 cask install kindle
+cask install mysqlworkbench
 cask install skitch
 cask install skype
 cask install virtualbox
