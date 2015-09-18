@@ -8,6 +8,7 @@ cask alfred
 cask asepsis
 cask atom
 cask evernote
+cask fantastical
 cask goofy
 cask google-chrome
 cask google-drive
@@ -34,15 +35,11 @@ tap homebrew/binary
 tap homebrew/dupes
 brew apple-gcc42
 
-## mysql
-brew mysql
-
 ## homebrew/php
 tap homebrew/php
-brew curl --with-openssl --with-libssh2
-brew php56 --with-homebrew-apxs --with-homebrew-curl --with-libmysql
-brew php56-xhprof
 brew composer
+brew php56-xhprof
+brew php56 --with-homebrew-apxs --with-homebrew-curl --with-libmysql
 
 ## homebrew/versions
 tap homebrew/versions
@@ -73,6 +70,7 @@ brew cabocha
 brew cairo
 brew coreutils
 brew cscope
+brew curl --with-openssl --with-libssh2
 brew direnv
 brew docker boot2docker
 brew fontconfig
@@ -82,7 +80,6 @@ brew gdbm
 brew gdk-pixbuf
 brew gettext
 brew gist
-brew subversion --with-perl --with-ruby
 brew git --with-brewed-curl --with-brewed-svn --with-brewed-openssl --with-gettext --with-pcre --with-brewed-curl --with-brewed-svn --with-brewed-openssl --with-gettext --with-pcre
 brew glib
 brew gnu-sed
@@ -110,6 +107,8 @@ brew macvim --HEAD --with-lua
 brew mcrypt
 brew mhash
 brew mobile-shell
+brew mongodb --with-openssl
+brew mysql
 brew neon
 brew newt --with-python --with-python
 brew nvm
@@ -133,6 +132,7 @@ brew ruby-build rbenv-gemset rbenv-gem-rehash
 brew s-lang
 brew scons
 brew sqlite
+brew subversion --with-perl --with-ruby
 brew swig
 brew the_silver_searcher
 brew tmux
