@@ -55,10 +55,6 @@ brew brew-file
 tap sanemat/font
 brew ricty --vim-powerline --powerline
 
-## smockle/iojs
-tap smockle/iojs
-brew iojs
-
 # Other Homebrew packages
 brew atk
 brew autoconf
