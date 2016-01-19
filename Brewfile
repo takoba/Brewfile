@@ -8,16 +8,20 @@ cask alfred
 cask asepsis
 cask atom
 cask evernote
-cask fantastical
+cask firefox
 cask goofy
 cask google-chrome
 cask google-drive
 cask gyazo
 cask hipchat
 cask kindle
+cask libreoffice
+cask licecap
+cask microsoft-office
 cask mysqlworkbench
 cask skitch
 cask skype
+cask slack
 cask virtualbox
 cask xquartz
 
@@ -56,6 +60,7 @@ tap sanemat/font
 brew ricty --vim-powerline --powerline
 
 # Other Homebrew packages
+brew asciinema
 brew atk
 brew autoconf
 brew automake
@@ -65,10 +70,12 @@ brew byobu
 brew cabocha
 brew cairo
 brew coreutils
+brew cowsay
 brew cscope
 brew curl --with-openssl --with-libssh2
 brew direnv
 brew docker boot2docker
+brew fabric
 brew fontconfig
 brew freetype
 brew gd
@@ -86,6 +93,7 @@ brew harfbuzz
 brew httpie
 brew hub
 brew icu4c
+brew imagemagick --with-perl --with-webp
 brew jpeg
 brew jq
 brew libevent
@@ -132,7 +140,9 @@ brew subversion --with-perl --with-ruby
 brew swig
 brew the_silver_searcher
 brew tmux
+brew ttyrec
 brew vim --with-lua
+brew wget
 brew xz
 
 # App Store applications
