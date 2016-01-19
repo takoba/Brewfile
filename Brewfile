@@ -141,7 +141,7 @@ brew swig
 brew the_silver_searcher
 brew tmux
 brew ttyrec
-brew vim --with-lua
+brew vim --with-lua --with-luajit
 brew wget
 brew xz
 
