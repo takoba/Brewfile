@@ -7,6 +7,7 @@ brew brew-cask
 cask alfred
 cask asepsis
 cask atom
+cask dropbox
 cask evernote
 cask firefox
 cask goofy
@@ -83,7 +84,7 @@ brew gdbm
 brew gdk-pixbuf
 brew gettext
 brew gist
-brew git --with-brewed-curl --with-brewed-svn --with-brewed-openssl --with-gettext --with-pcre --with-brewed-curl --with-brewed-svn --with-brewed-openssl --with-gettext --with-pcre
+brew git --with-brewed-curl --with-brewed-svn --with-brewed-openssl --with-gettext --with-pcre
 brew glib
 brew gnu-sed
 brew go
@@ -133,6 +134,8 @@ brew readline
 brew reattach-to-user-namespace --wrap-launchctl --wrap-pbcopy-and-pbpaste
 brew redis
 brew ruby-build rbenv-gemset rbenv-gem-rehash
+brew rbenv-binstubs
+brew rbenv-gemset
 brew s-lang
 brew scons
 brew sqlite
